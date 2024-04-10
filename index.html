@@ -4,19 +4,83 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/estilo.css">
 </head>
 <body>
-    <header>
-        <div>
-            <nav>
+    <header class="cabecalho">
 
-            </nav>
+        <div class="logo">
+            <h3>
+                LOGOTIPO
+            </h3>
         </div>
+        <nav>
+            <p>menu principal</p>
+        </nav>
+   
     </header>
     <main>
+        <section>
+            <h1 class="titulos">Introdução HTML</h1>
+            <h5><img src="img/logohtml.png" alt="Logo html preto"></h5>
+            <p>HTML é a linguagem de marcação padrão para a criação de páginas da Web.</p>
+        </section>
+        <section>
+            <h2 class="titulos">O que é HTML?</h2>
+            <ul>
+                <li>HTML significa linguagem de marcação de hipertexto.</li>
+                <li>HTML é a linguagem de marcação padrão para criação de páginas da Web.</li>
+                <li>HTML descreve a estrutura de uma página da Web.</li>
+                <li>HTML consiste em uma série de elementos.</li>
+                <li>Os elementos HTML informam ao navegador como exibir o conteúdo.</li>
+                <li>Os elementos HTML rotulam partes do conteúdo como “este é um título”, “este é um parágrafo”, “este é um link”, etc.</li>
+            </ul>
+        </section>
+        <section>
+            
+                <h5><img class="excodigo" src="img/exemplo.png" alt="Exemplo de estrutrua básica html"></h5>
 
+        
+        </section>
+        <section>
+            <h2 class="titulos">Para que servem as tags:</h2>
+            <ul>
+            <li>A declaração <code>&lt;!DOCTYPE html&gt;</code> define que este documento é um documento HTML5.</li>
+            <li>O elemento <code>&lt;html&gt;</code> é o elemento raiz de uma página HTML.</li>
+            <li>O elemento <code>&lt;head&gt;</code> contém meta informações sobre a página HTML.</li>
+            <li>O elemento <code>&lt;title&gt;</code> especifica um título para a página HTML (que é mostrado na barra de título do navegador ou na guia da página).</li>
+            <li>O elemento <code>&lt;body&gt;</code> define o corpo do documento e é um contêiner para todos os conteúdos visíveis, como títulos, parágrafos, imagens, hiperlinks, tabelas, listas, etc.</li>
+            <li>O elemento <code>&lt;h1&gt;</code> define um título grande.</li>
+            <li>O elemento <code>&lt;p&gt;</code> define um parágrafo.</li>
+            </ul>
+        </section>
+        <section>
+            <h2 class="titulos">Atributos:</h2>
+            <table>
+                <tr>
+                    <th>Atributo</th>
+                    <th>Descrição</th>
+                    <th>Exemplo</th>
+                </tr>
+                <tr>
+                    <td> O atributo href </td>
+                    <td>Utilizado para indicar um link, especifica o URL da página para a qual o link leva</td>
+                    <td><code>&lt;a href="https://www.w3schools.com"&gt;</code>Visit W3Schools<code>&lt;/a&gt;</code> Como fica: <a href="https://www.w3schools.com">Visit W3Schools</a></td>
+                </tr>
+                <tr>
+                    <td>O atributo src</td>
+                    <td>Para incorporar uma imagem em uma página HTML, o atributo especifica o caminho para a imagem a ser exibida</td>
+                    <td><code>&lt;img src="img_girl.jpg"&gt;</code></td>
+                </tr> 
+            </table>
+        </section>
     </main>
-    <footer>
+    <footer class="rodape">
+        <p>
+            Rodapé
+
+        </p>
 
     </footer>
 </body>
