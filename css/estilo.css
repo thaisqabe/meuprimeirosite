@@ -1,30 +1,78 @@
 body{
-    background-color: #B7B7A4;
-    font-size: 1.5rem;
-    font-family: Lucida Console, monospace;
+    background-color:#B1A7A6;
+    font-family: Lucida Console;
+ }
+
+ .cabecalho {
+    background-color: #A4161A;
+    padding: 3%;
+ }
+
+ .logo
+{
+    background-color: #E5383B;
 }
 
-h1, h2 {
-    text-align: center;
-    font-weight: bold;
+nav {
+    background-color: #D3D3D3;
 }
+
+main {
+    background-color:#161A1D;
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+
+}
+
+section {
+    background-color: #BA181B;
+    padding: 2%;
+
+}
+
+.rodape {
+    background-color: #F5F3F4;
+    padding: 3%;
+}
+
 table{
-    border: 1px solid #FFF1E6;
+    border: 1px solid #B1A7A6;
 		border-collapse: collapse;
     text-align: center;
-    background-color: #DDBEA9;
-}
-th, td {border: 1px solid #FFF1E6;
-    border-collapse: collapse;}
+    line-height: 2;
 
-    ul{
-        list-style-type: square
-  }
+    }
 
-img{
-    width: 25%;
-}
-
-h5 {
+ th, td {
+    border: 1px solid #B1A7A6;
+     border-collapse: collapse;}
+    
+ ul{
+    list-style-type: square
+      }
+    
+h1 {
+    font-weight: bolder;
+    font-size: large;
     text-align: center;
+
+}
+h2 {
+    text-align: center;
+    font-weight: bold;
+    font-size: 150%;
+}
+
+
+ul li {
+    line-height: 2;
+
+}
+.titulos {
+    line-height: 3;
+}
+
+.excodigo {
+    width: 25%;
 }
