@@ -76,5 +76,21 @@ ul li {
 
 p{
     line-height: 2;
+}
 
+.linha{
+    display: flex;
+    flex-flow:row wrap ;
+}
+
+.col-3{
+    width: 25%;
+}
+
+.imggaleria{
+    width: 100%;
+}
+.col-3p{
+    font-size: 1rem;
+    text-align: center;
 }
