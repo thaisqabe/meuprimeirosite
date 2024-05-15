@@ -1,6 +1,6 @@
 body{
     background-image: url("../img/fundonotas.jpg");
-    font-family: "Montserrat";
+    font-family: "Urubunto Mono";
     font-size: 2rem;
  }
 
@@ -75,7 +75,7 @@ ul li {
 }
 
 .titulos {
-    font-family: "Courier Prime", monospace;
+    font-family: "Ubunto Mono", monospace;
     line-height: 3;
 }
 
@@ -106,3 +106,18 @@ p{
     text-align: center;
 }
 
+a:link{
+    color: black;
+}
+
+a:visited{
+    color:#3A0CA3 ;
+}
+
+a:hover{
+    color: #B5179E;
+}
+
+a:active{
+    color: white;
+}
