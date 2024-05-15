@@ -68,6 +68,9 @@ h2 {
     font-size: 150%;
 }
 
+h3{
+    font-weight: bold;
+}
 
 ul li {
     line-height: 2;
@@ -121,3 +124,4 @@ a:hover{
 a:active{
     color: white;
 }
+
