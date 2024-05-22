@@ -5,20 +5,20 @@ body{
  }
 
  .cabecalho {
-    background-color: #560BAD;
+    background-color: #532B88;
     padding: 3%;
  }
 
  .logo
 {
-    background-color: #3A0CA3;
+    background-color: #532B88;
 }
 
 .logoimg{
     width: 10%;
 }
 nav {
-    background-color: #7209B7;
+    background-color: #532B88;
 }
 
 main {
@@ -29,13 +29,13 @@ main {
 }
 
 section {
-    background-color: #4CC9F0;
+    background-color: #C8B1E4;
     padding: 2%;
 
 }
 
 .rodape {
-    background-color: #560BAD;
+    background-color: #2F184B;
     padding: 3%;
 }
 
@@ -70,6 +70,7 @@ h2 {
 
 h3{
     font-weight: bold;
+    margin-top: 2%;
 }
 
 ul li {
@@ -100,9 +101,10 @@ p{
 }
 
 .imggaleria{
-    width: 90%;
+    width: 95%;
     margin-left: 1%;
     margin-right: 1%;
+   
 }
 .col-3p{
     font-size: 1rem;
@@ -114,7 +116,7 @@ a:link{
 }
 
 a:visited{
-    color:#3A0CA3 ;
+    color:#F4EFFA ;
 }
 
 a:hover{
@@ -125,3 +127,13 @@ a:active{
     color: white;
 }
 
+.flutuar{
+    float: right;
+    width: 25%;
+    margin-left: 3%;
+    margin-top: 0.3%;
+}
+
+.galp{
+    margin-bottom: 1%;
+}
