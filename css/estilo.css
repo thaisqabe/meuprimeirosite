@@ -1,7 +1,7 @@
 body{
     background-image: url("../img/fundonotas.jpg");
     font-family: "Urubunto Mono";
-    font-size: 2rem;
+    font-size: 1.7rem;
  }
 
  .cabecalho {
@@ -89,7 +89,7 @@ p{
 
 .linha{
     display: flex;
-    flex-flow:row wrap;
+    flex-flow: wrap;
     margin-left: auto;
     margin-right: auto;
 }
@@ -149,7 +149,7 @@ a:active{
     width: calc(25% - 15px); 
     margin-bottom: 15px;
     margin-top: 10px;
-    background-color: #3C096C;
+    background-color: #47126b;
     padding: 20px;
     box-sizing: border-box;
 }
