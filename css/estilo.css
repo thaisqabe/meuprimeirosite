@@ -177,7 +177,7 @@ a:active{
     top: 8px;
     left: 280px;
     font-size: 15px;
-    background-color: #adb5bd;
+    background-color: #adb5bdce;
     padding: 0.3%;
   }
   
@@ -192,6 +192,27 @@ a:active{
     bottom: 8px;
     left: 280px;
     font-size: 15px;
-    background-color: #adb5bd;
+    background-color: #adb5bdce;
     padding: 0.3%;
+  }
+
+  .gif{
+    position: absolute;
+    top: 305%;
+    right: 45%;
+    width: 25%;
+  }
+
+  .gif-2{
+    position: absolute;
+    top: 327%;
+    right: 8%;
+    width: 30%;
+  } 
+  
+  .gif-3{
+    position: absolute;
+    top: 400%;
+    right: 40%;
+    width: 20%;
   }
