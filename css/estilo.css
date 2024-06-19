@@ -168,51 +168,28 @@ a:active{
 
 .container {
     position: relative;
-    text-align: center;
-    margin-bottom: 1%;
-  }
-  
-.topleft {
-    position: absolute;
-    top: 8px;
-    left: 280px;
-    font-size: 15px;
-    background-color: #adb5bdce;
-    padding: 0.3%;
-  }
-  
-.compo{ 
-    width: 60%;
-    height: auto;
-    opacity: 0.9;
+ 
+}
+
+.compo { 
+    width: 70%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
   }
 
 .bottomleft {
     position: absolute;
-    bottom: 8px;
-    left: 280px;
-    font-size: 15px;
+    bottom: 12px;
+    left: 210px;
+    font-size: 70%;
     background-color: #adb5bdce;
-    padding: 0.3%;
   }
-
-  .gif{
-    position: absolute;
-    top: 305%;
-    right: 45%;
-    width: 25%;
-  }
-
-  .gif-2{
-    position: absolute;
-    top: 327%;
-    right: 8%;
-    width: 30%;
-  } 
   
-  .gif-3{
+  .topleft {
     position: absolute;
-    top: 400%;
-    right: 40%;
-    width: 20%;
+    top: 12px;
+    left: 210px;
+    font-size: 70%;
+    background-color: #adb5bdce;
   }
