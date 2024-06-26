@@ -116,14 +116,14 @@ table{
     
 h1 {
     font-weight: bolder;
-    font-size: 4rem;
+    font-size: 3.5rem;
     text-align: center;
 }
 
 h2 {
     text-align: center;
     font-weight: bold;
-    font-size: 2.2em;
+    font-size: 2.2rem;
 }
 
 h3{
@@ -263,7 +263,9 @@ a:active{
     }
     main{
         margin-top: 12%;
+        width: 90%;
     }
+    
 
 }
     
