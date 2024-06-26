@@ -261,6 +261,9 @@ a:active{
     nav ul li label {
         display: block;
     }
+    main{
+        margin-top: 12%;
+    }
 
 }
     
