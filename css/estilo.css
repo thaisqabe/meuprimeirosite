@@ -1,46 +1,46 @@
 body{
-    background-image: url("../img/fundonotas.jpg");
+    background-image: url("../img/fundomusical.jpg");
     font-family: "Urubunto Mono";
-    font-size: 1.7rem;
+    font-size: 1.5rem;
  }
 
  .cabecalho {
-    background-color: #532B88;
+    background-color: #94429A;
     padding: 3%;
+
  }
 
- .logo
-{
-    background-color: #532B88;
+ .logo{
+    background-color: #94429A;
 }
 
 .logoimg{
-    width: 10%;
+    width: 5%;
 }
 nav {
-    background-color: #532B88;
+    background-color: #94429A;
 }
 
+
 main {
-    width: 90%;
+    width: 75%;
     margin-left: auto;
     margin-right: auto;
-
 }
 
 section {
-    background-color: #C8B1E4;
+    background-color: #9e72bff7;
     padding: 2%;
-
 }
 
 .rodape {
-    background-color: #2F184B;
-    padding: 3%;
+    background-color: #240A26;
+    padding: 5%;
+    text-align: center;
+    color: rgba(255, 255, 255, 0.612);
 }
 
 table{
-    border: 3px solid #B5179E;
 	border-collapse: collapse;
     width: 80%;
     line-height: 2;
@@ -50,7 +50,7 @@ table{
     }
 
  th, td {
-     border: 3px solid #B5179E;
+     border: 3px solid #3D0E40;
      border-collapse: collapse;
      text-align: center;
      font-size: 3rem;
@@ -58,19 +58,21 @@ table{
     
 h1 {
     font-weight: bolder;
-    font-size: 200%;
+    font-size: 3rem;
     text-align: center;
 
 }
 h2 {
     text-align: center;
     font-weight: bold;
-    font-size: 150%;
+    font-size: 2.5em;
 }
 
 h3{
     font-weight: bold;
     margin-top: 2%;
+    margin-bottom: 1.2%;
+    font-size: 1.8rem;
 }
 
 ul li {
@@ -79,7 +81,7 @@ ul li {
 }
 
 .titulos {
-    font-family: "Ubunto Mono", monospace;
+    font-family: "Ubunto Mono";
     line-height: 3;
 }
 
@@ -116,11 +118,11 @@ a:link{
 }
 
 a:visited{
-    color:#F4EFFA ;
+    color: black ;
 }
 
 a:hover{
-    color: #B5179E;
+    color: #3D0E40;
 }
 
 a:active{
@@ -138,20 +140,24 @@ a:active{
     margin-bottom: 1%;
 }
 
+.imgcard{
+    width: 50%;
+}
 .cards {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
-    font-size: 1.5rem;
+    font-size: 0.8em;
 }
 
 .card {
     width: calc(25% - 15px); 
     margin-bottom: 15px;
     margin-top: 10px;
-    background-color: #815ac0;
+    background-color: #3D0E40;
     padding: 20px;
     box-sizing: border-box;
+    color: rgba(255, 255, 255, 0.544);
 }
 
 @media screen and (max-width: 800px) {
@@ -164,7 +170,13 @@ a:active{
     .card {
         width: calc(100% - 15px);
     }
+    .gif1, .gif2{
+        display: none;
+    }
+
 }
+
+
 
 .container {
     position: relative;
@@ -176,20 +188,48 @@ a:active{
     display: block;
     margin-left: auto;
     margin-right: auto;
+    margin-top: 2%;
+    margin-bottom: 2%;
   }
 
 .bottomleft {
     position: absolute;
-    bottom: 12px;
-    left: 210px;
-    font-size: 70%;
-    background-color: #adb5bdce;
+    bottom: 1%;
+    left: 16%;
+    font-size: 1vw;
+    background-color: #3D0E40;
+    color: rgba(255, 255, 255, 0.544);
   }
   
-  .topleft {
+.topleft {
     position: absolute;
-    top: 12px;
-    left: 210px;
-    font-size: 70%;
-    background-color: #adb5bdce;
+    top: 1.5%;
+    left: 16%;
+    font-size: 1.5vw;
+    background-color: #3D0E40;
+    color: rgba(255, 255, 255, 0.544);
   }
+
+.gif1{
+    float: right;
+    margin-right: 25%;
+    margin-top: 4%;
+    width: 35%;
+}
+
+.gif2{
+    float: right;
+    margin-right: 15%;
+    margin-top: 1%;
+    width: 35%;
+}
+
+.gif3{
+    float: left;
+    width: 9%;
+}
+
+.gif4{
+    float: right;
+    width: 13.5%;
+}
