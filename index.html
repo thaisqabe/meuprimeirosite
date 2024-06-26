@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-br">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -17,20 +17,25 @@
         <div class="logo">
                 <img class=logoimg src="img/logosolfa2.png" alt="">
         </div>
-        <nav>
+
+        <nav id="menu">
+            <input type="checkbox" id="menu-toggle">
+            <label for="menu-toggle" class="menu-icon">&#9776;</label>
             <ul>
-            <li><a href="#Introducao">Introdução</a></li>
-            <li><a href="#Elementos">Elementos</a></li>
-            <li><a href="#Simbolos">Símbolos</a></li>
-            <li><a href="#Valor">Valor</a></li>
-            <li><a href="#Compasso">Compasso</a></li>
-            <li><a href="#Familias">Famílias</a></li>
-            <li><a href="#Compositores">Compositores</a></li>
+            <li><a href="#Introducao"onclick="document.getElementById('menu-toggle').click()">Introdução</a></li>
+            <li><a href="#Elementos"onclick="document.getElementById('menu-toggle').click()">Elementos</a></li>
+            <li><a href="#Simbolos"onclick="document.getElementById('menu-toggle').click()">Símbolos</a></li>
+            <li><a href="#Valor"onclick="document.getElementById('menu-toggle').click()">Valor</a></li>
+            <li><a href="#Compasso"onclick="document.getElementById('menu-toggle').click()">Compasso</a></li>
+            <li><a href="#Familias"onclick="document.getElementById('menu-toggle').click()">Famílias</a></li>
+            <li><a href="#Compositores"onclick="document.getElementById('menu-toggle').click()">Compositores</a></li>
             </ul>
         </nav>
    
     </header>
+
     <main>
+
         <section>
             <h1 class="titulos">Introdução Teoria Musical<a name="Introducao"></a></h1>
             
@@ -39,9 +44,12 @@
             </figure>
             <p>Teoria musical é o estudo do sistema, linguagem que forma a música nos aspectos de melodia, harmonia e ritmo, é uma estrutura universal e extremamente importante de ser estudadas por pessoas que querem aprender a tocar um instrumento, trabalhar com música. </p>
         </section>
+
         <section>
             <h2 class="titulos">Elementos formais da música<a name="Elementos"></a></h2>
+            
             <p class="galp">A música possui alguns elementos básicos, fundamentais de se conhecer, são eles: altura, intensidade, densidade, duração e timbre.</p>
+           
             <ul>
                 <li>Altura: é o que diz se o som é grave ou agudo, dependendo das vibrações, quanto mais rápidas mais agudo, quanto mais lentas mais grave.</li>
                 <li>Intensidade: é o que diz se o som produzido é forte ou fraco, está relacionada à energia de vibração da fonte que emite as ondas sonoras. Na música geralmente é indicado como: pp - pianissímo, p - piano, f - forte, ff - fortissímo.</li>
@@ -49,11 +57,15 @@
                 <li>Duração: é o que indica quanto tempo a nota soa, assim, dizemos se o som é longo ou curto.</li>
                 <li>Timbre: é a característica de som única de cada coisa, é a "cor" do som. Por exemplo, é fácil distinguir o som de um violão e um piano, pois eles têm timbre diferentes. Cada pessoa também tem o seu próprio timbre de voz. </li>
             </ul>
+            
             <a href="http://www.arte.seed.pr.gov.br/modules/conteudo/conteudo.php?conteudo=136 " target="_blank">Fonte: Secretária da Educação do Paraná.</a>
         </section>
+
         <section>
             <h2 class="titulos">Símbolos musicais:<a name="Simbolos"></a></h2>
+            
             <h3>Claves:</h3>
+            
             <ul >
                 <li>𝄞: é a clave de sol, geralmente usada em partituras para piano, violão, violino.</li>
                 <li>𝄢: é a clave de fá, geralmente usada em partituras para piano, violoncelo, contrabaixo.</li>
@@ -61,9 +73,9 @@
             </ul>
 
             <h3>Notas:</h3>
+            
             <ul >
                 <img class="gif1" src="img/colcheias.gif" alt="">
-
                 <li>𝅝: semibreve. </li>
                 <li>𝅗𝅥: mínima. </li>
                 <li>𝅘𝅥: semínima. </li>
@@ -74,9 +86,9 @@
             </ul>
 
             <h3>Pausas:</h3>
+
             <ul>
                 <img class="gif2" src="img/colcheias2.gif" alt="">
-
                 <li>𝄻: pausa de semibreve.</li>
                 <li>𝄼: pausa de mínima.</li>
                 <li>𝄽: pausa de semínima.</li>
@@ -87,6 +99,7 @@
             </ul>
 
             <h3>Acidentes:</h3>
+
             <ul>
                 <li>𝄫: dobrado bemol, diminui dois semitons.</li>
                 <li>♭: bemol, diminui um semitom.</li>
@@ -96,6 +109,7 @@
             </ul>
 
             <h3>Outros símbolos:</h3>
+
             <ul>
                 <li>𝄀: barra de compasso, mostra a mudança de um compasso para outro.</li>
                 <li>𝄁: mostra o fim de uma seção, sendo que a próxima pode ser em outro tom, como se dividisse a música em partes.</li>
@@ -106,8 +120,10 @@
                 <li>𝆓: indica um decrescendo, ou seja, vai diminuir a intensidade.</li>
             </ul>
         </section>
+
         <section> 
             <h2 class="titulos">Valor das notas:<a name="Valor"></a></h2>
+            
             <table>
                 <tr>
                     <th>Notas</th>
@@ -116,7 +132,6 @@
                 <tr>
                     <td> 𝅝</td>
                     <td>1</td>
-                  
                 </tr>
                 <tr>
                     <td>𝅗𝅥</td>
@@ -143,13 +158,18 @@
                     <td>64</td>
                 </tr>
             </table>
+
         </section>
         <section>
+
             <h2 class="titulos">Fórmulas de Compasso<a name="Compasso"></a></h2>
+            
             <p>A fórmula de compasso define a unidade de tempo e quantas vezes ela aparece em cada compasso.</p>
 
             <h3>Compasso Simples</h3>
+
             <p> Para saber qual será a unidade de tempo em um compasso simples basta olhar o número que está embaixo, ele indica a figura que valerá um tempo. O número de cima mostra quantas daquela figura deverão existir por compasso. Exemplos de compasso simples:</p>
+            
             <div class="cards">
                 <div class="card">
                     <h3>2 por 4</h3>
@@ -158,6 +178,7 @@
                     </figure>
                     <p>Essa fómula de compasso é muito comum, ela indica que a unidade de tempo é a semínima e que em cada compasso terá que ter 2 semínimas, que podem ser subdivididas.</p>
                 </div>
+
                 <div class="card">
                     <h3>3 por 4</h3>
                     <figure>
@@ -165,6 +186,7 @@
                     </figure>
                     <p>Essa fómula de compasso também é muito comum, ela indica que a unidade de tempo é a semínima e que em cada compasso terá que ter 3 semínimas, que podem ser subdivididas.</p>
                 </div>
+
                 <div class="card">
                     <h3>4 por 8</h3>
                     <figure>
@@ -172,6 +194,7 @@
                     </figure>            
                     <p>Essa fómula de compasso indica que a unidade de tempo é a colcheia e que em cada compasso terá que ter 4 colcheias, que podem ser subdivididas.</p>
                 </div>
+
                 <div class="card">
                     <h3>3 por 2</h3>
                     <figure>
@@ -180,8 +203,11 @@
                     <p>Essa fómula de compasso indica que a unidade de tempo é a mínima e que em cada compasso terá que ter 3 mínimas, que podem ser subdivididas.</p>
                 </div>
             </div>
+
             <h3>Compasso Composto</h3>
+
             <p>O compasso composto é mais complicado, pois nele as unidades de tempo são figuras pontuadas (o ponto de aumento em uma nota indica que ela durará seu prórpio tempo mais a metade). Primeiro olhamos para o número debaixo e pegamos a nota que está "acima" dele e pontuamos, essa será a unidade de tempo. O número de cima vai indicar quantas vezes essa figura precisa aparecer, porém, dividimos esse número por 3, assim saberemos quantas das figurras pontuadas será preciso.</p>
+            
             <div class="cards">
                 <div class="card">
                     <h3>6 por 8</h3>
@@ -190,6 +216,7 @@
                     </figure>
                     <p>Essa fómula de compasso é muito comum, ela indica que a unidade de tempo é a semínima pontuada e que em cada compasso terá que ter 2 semínimas pontuadas, que podem ser subdivididas.</p>
                 </div>
+
                 <div class="card">
                     <h3>12 por 16</h3>
                     <figure>
@@ -197,6 +224,7 @@
                     </figure>
                     <p>Essa fómula de compasso indica que a unidade de tempo é a colcheia pontuada e que em cada compasso terá que ter 4 colcheias pontuadas, que podem ser subdivididas.</p>
                 </div>
+
                 <div class="card">
                     <h3>9 por 8</h3>
                     <figure>
@@ -204,6 +232,7 @@
                     </figure>            
                     <p>Essa fómula de compasso indica que a unidade de tempo é a semínima pontuada e que em cada compasso terá que ter 3 colcheias pontuadas, que podem ser subdivididas.</p>
                 </div>
+
                 <div class="card">
                     <h3>6 por 4</h3>
                     <figure>
@@ -211,12 +240,15 @@
                     </figure>
                     <p>Essa fómula de compasso indica que a unidade de tempo é a mínima pontuada e que em cada compasso terá que ter 2 mínima pontuadas, que podem ser subdivididas.</p>
                 </div>
+
             </div>
-         
         </section>
         <section>
+
             <h2 class="titulos">Famílias dos Intrumentos Musicais<a name="Familias"></a></h2>
+           
             <p class="galp">As famílias dos instrumentos são cordas, sopro e percussão, sendo que a do sopro é subdividida em metal e madeira.</p>
+            
             <div class="linha">
                 <div class="col-3">
                     <figure>
@@ -226,6 +258,7 @@
                         Família de cordas: violão.
                     </legend>
                 </div>
+
                 <div class="col-3">
                     <figure>
                     <img class="imggaleria" src="img/imggaleria/oboeg.jpg" alt="">
@@ -234,6 +267,7 @@
                         Família de madeira: oboé.
                     </legend>
                 </div>
+
                 <div class="col-3">
                     <figure>
                     <img class="imggaleria" src="img/imggaleria/tubag.jpg" alt="">
@@ -242,6 +276,7 @@
                         Família dos metais: tuba.
                     </legend>
                 </div>
+
                 <div class="col-3">
                     <figure>
                     <img class="imggaleria" src="img/imggaleria/xilofone2g.jpg" alt="">
@@ -252,36 +287,46 @@
                 </div>
             </div>
         </section>
+
         <section>
+            
             <h2 class="titulos">Alguns Compositores:<a name="Compositores"></a></h2>
+            
             <p>Ao longo dos anos vários compositores musicais se destacaram por suas incríveis músicas e são estudados até hoje. Alguns deles são:</p>
+            
             <div class="container">
                 <img class="compo" src="img/mozart.jpg" alt="">
                 <div class="topleft">Johannes Chrysostomus Wolfgangus Theophilus Mozart</div>
                 <div class="bottomleft">Salzburgo, 27 de janeiro de 1756 - Viena, 5 de dezembro de 1791</div>
             </div>
+
             <div class="container">
                 <img class="compo" src="img/joao_pernambuco.jpg" alt="">
                 <div class="topleft">João Teixeira Guimarães (João Pernambuco)</div>
                 <div class="bottomleft">2 de novembro de 1883, Jatobá, PE - 16 de outubro de 1947, Rio de Janeiro, RJ</div>
             </div>
+
             <div class="container">
                 <img class="compo" src="img/johann-sebastian-bach.jpg" alt="">
                 <div class="topleft">Johann Sebastian Bach</div>
                 <div class="bottomleft">31 de março de 1685, Eisenach, Alemanha - 28 de julho de 1750, Lípsia, Alemanha</div>
             </div>
+
             <div class="container">
                 <img class="compo" src="img/Dilermando Reis.jpg" alt="">
                 <div class="topleft">Dilermando dos Santos Reis</div>
                 <div class="bottomleft">22 de setembro de 1916, Guaratinguetá, SP - 2 de janeiro de 1977, Rio de Janeiro, RJ</div>
             </div>
+
             <div class="container">
                 <img class="compo" src="img/egberto.jpg" alt="">
                 <div class="topleft">Egberto Gismonti Amin</div>
                 <div class="bottomleft">5 de dezembro de 1947, Carmo, RJ</div>
             </div>
+
         </section>
     </main>
+
     <footer class="rodape">
 
         <p>
@@ -291,5 +336,6 @@
         </p>
 
     </footer>
+
 </body>
 </html>
