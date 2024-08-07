@@ -353,3 +353,12 @@ a:active{
     float: right;
     width: 13.5%;
 }
+
+
+
+input{
+    width: 75%;
+    padding: 1%;
+    box-sizing: border-box;
+   
+}
