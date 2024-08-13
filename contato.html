@@ -23,7 +23,7 @@
             <label for="menu-toggle" class="menu-icon">&#9776;</label>
             <ul>
                 <li><a href="index.html"onclick="document.getElementById('menu-toggle').click()">Início</a></li>
-                <li><a href="contato.html"onclick="document.getElementById('menu-toggle').click()">Contato</a></li>
+                <li><a href="#contato"onclick="document.getElementById('menu-toggle').click()">Contato</a></li>
 
             </ul>
         </nav>
@@ -32,82 +32,79 @@
 
     <main>
 
-        <section>
+        <section id="contato">
             <h1 class="titulos">Contato</h1>
-            <form>
-                <label>Primeiro nome:</label>
-                <input type="text">
-                <label>Último nome:</label>
-                <input type="text">
-                <label>Ano de nascimento:</label>
-                <select>
-                    <option>1980</option>
-                    <option>1981</option>
-                    <option value="idade"> 1982</option>
-                    <option value="idade"> 1983</option>
-                    <option value="idade"> 1984</option>
-                    <option value="idade"> 1985</option>
-                    <option value="idade"> 1986</option>
-                    <option value="idade"> 1987</option>
-                    <option value="idade"> 1988</option>
-                    <option value="idade"> 1989</option>
-                    <option value="idade"> 1990</option>
-                    <option value="idade"> 1991</option>
-                    <option value="idade"> 1992</option>
-                    <option value="idade"> 1993</option>
-                    <option value="idade"> 1994</option>
-                    <option value="idade"> 1995</option>
-                    <option value="idade"> 1996</option>
-                    <option value="idade"> 1997</option>
-                    <option value="idade"> 1998</option>
-                    <option value="idade"> 1999</option>
-                    <option value="idade"> 2000</option>
-                    <option value="idade"> 2001</option>
-                    <option value="idade"> 2002</option>
-                    <option value="idade"> 2003</option>
-                    <option value="idade"> 2004</option>
-                    <option value="idade"> 2005</option>
-                    <option value="idade"> 2006</option>
-                    <option value="idade"> 2006</option>
-                    <option value="idade"> 2007</option>
-                    <option value="idade"> 2008</option>
-                    <option value="idade"> 2009</option>
-                    <option value="idade"> 2010</option>
-                    <option value="idade"> 2011</option>
-                    <option value="idade"> 2012</option>
-                    <option value="idade"> 2013</option>
-                    <option value="idade"> 2014</option>
-                    <option value="idade"> 2015</option>
-                    <option value="idade"> 2016</option>
-                    <option value="idade"> 2017</option>
-                    <option value="idade"> 2018</option>
-                    <option value="idade"> 2019</option>
-                    <option> 2020</option>
-                    <option> 2021</option>
-                    <option> 2022</option>
-                    <option> 2023</option>
-                    <option> 2024</option>
-                  </select>
-                  
-                <label>Email:</label>
-                <input type="email">
+            <form id="contactForm">
+                <div>
+                    <div class="form-group">
+                        <label for="fname" >Nome:</label>
+                        <input type="text" id="fname" name="firstname" placeholder="Digite seu nome..." required>
+                    </div>
 
-                <label>Mensagem:</label>
-                <textarea rows="10" cols="30">
-                    Digite aqui...
-                </textarea>
+                    <div class="form-group">
+                        <label for="email">Email</label>
+                        <input type="email" id="email" name="email" placeholder="Digite seu email..." required>
+                    </div>
 
-                <p>O que achou do site?<p>
-                <input type="radio">
-                <label>Ótimo</label>
-                <input type="radio">
-                <label>Bom</label>
-                <input type="radio">
-                <label>Ruim</label>
-                <input type="radio">
-                <label>Péssimo</label>
+                    <div class="form-group">
+                        <label for="phone">Telefone</label>
+                        <input type="tel" id="phone" name="phone" placeholder="(XX) XXXX-XXXX">
+                    </div>
+
+                   
+
+                    <div class="form-group" >
+                        <label for="country">Caso toque algum instrumento, coloque a família que ele pertence:</label>
+                        <select id="country" name="country">
+                            <option value="cordas">Cordas</option>
+                            <option value="madeira">Madeira</option>
+                            <option value="metal">Metal</option>
+                            <option value="percu">Percussão</option>
+                        </select>
+                    </div>
+                    
+                    <div class="form-group checkbox-group">
+                        <h2>Quais são seus compositores favoritos?</h2>
+
+                        <input type="checkbox" id="fav1" name="favs" value="villa">
+                        <label for="fav1">Heitor Villa-Lobos</label><br>
+                        <input type="checkbox" id="fav2" name="favs" value="jpernam">
+                        <label for="fav2">João Pernambuco</label><br>
+                        <input type="checkbox" id="fav3" name="favs" value="bach">
+                        <label for="fav3">Johann Sebastian Bach</label><br>
+                        <input type="checkbox" id="fav4" name="favs" value="dilermano">
+                        <label for="fav4">Dilermando dos Santos Reis</label>
+                        <input type="checkbox" id="fav5" name="favs" value="egberto">
+                        <label for="fav5">Egberto Gismonti Amin</label>
+                        <input type="checkbox" id="fav6" name="favs" value="americo">
+                        <label for="fav6">Américo Jacomino</label>
+                        <input type="checkbox" id="fav7" name="favs" value="brouwer">
+                        <label for="fav7">Leo Brouwer</label>
+                        <input type="checkbox" id="fav" name="favs" value="outros">
+                        <label for="fav8">Outros</label>
+                    </div>
+
+                    <div class="form-group radio-group">
+                        <h2>O que achou do site?<h2>
+                            <input type="radio">
+                            <label>Ótimo</label>
+                            <input type="radio">
+                            <label>Bom</label>
+                            <input type="radio">
+                            <label>Ruim</label>
+                            <input type="radio">
+                            <label>Péssimo</label>
+                    </div>
+
+                    <div class="form-group">
+                        <label>Mensagem:</label>
+                        <textarea id="comments" name="comments" rows="10" cols="30" placeholder="Digite sua mensagem..."></textarea>
+                    </div>
+
+          
 
                 <input type="submit">
+                </div>
             </form>
            
         </section>

@@ -356,9 +356,76 @@ a:active{
 
 
 
+
+
 input{
     width: 75%;
     padding: 1%;
     box-sizing: border-box;
    
+}
+
+label {
+    display: flex; /* Usa flexbox para alinhamento */
+    align-items: center; /* Alinha verticalmente */
+    margin-bottom: 8px; /* Espaçamento entre os elementos */
+}
+
+
+
+input[type=text], [type=email], [type=tel], [type=date], [type=number],select {
+    width: 80%;
+    padding: 1%;
+    margin: 8px 0;
+    display: inline-block;
+    border: 2px solid #3D0E40;
+    border-radius: 8px;
+    box-sizing: border-box;
+    width: calc(100% - 22px);
+  }
+
+  input[type=submit] {
+    width: 100%;
+    background-color: #3D0E40 ;
+    color: rgba(255, 255, 255, 0.904);
+    padding: 2%;
+    margin: 10px 0;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+  }
+
+  .form-group {
+    margin-bottom: 20px;
+}
+
+
+.checkbox-group, .radio-group {
+    margin-bottom: 20px;    
+    display: flex;
+    flex-direction: column;
+}
+
+.checkbox-group h2, .radio-group h2 {
+    margin-bottom: 8px;
+    font-size: 1.5rem;
+    font-weight: normal;
+    text-align: left;
+}
+
+.checkbox-group input[type=checkbox], .radio-group input[type=radio] {
+    margin-right: 10px;
+
+}
+
+textarea {
+    width: calc(100% - 22px); 
+    padding: 1%;
+    border: 2px solid #3D0E40; 
+    border-radius: 8px; 
+    box-sizing: border-box;
+    font-size: 1rem; 
+    line-height: 1.5; 
+    resize: vertical; /* Permite o redimensionamento apenas verticalmente */
+    margin-top: 5px; /* Adiciona um pouco de margem superior para separação do label */
 }
