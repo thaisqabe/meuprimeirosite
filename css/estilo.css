@@ -384,6 +384,10 @@ input[type=submit] {
 }
 
 
+.checkbox-group p, .radio-group p {
+    font-size: 1.8rem;
+ }
+ 
 .checkbox-group, .radio-group {
     margin-bottom: 20px;    
     
