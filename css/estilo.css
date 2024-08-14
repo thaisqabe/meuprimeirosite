@@ -357,22 +357,6 @@ a:active{
 
 
 
-
-input{
-    width: 75%;
-    padding: 1%;
-    box-sizing: border-box;
-   
-}
-
-label {
-    display: flex; /* Usa flexbox para alinhamento */
-    align-items: center; /* Alinha verticalmente */
-    margin-bottom: 8px; /* Espaçamento entre os elementos */
-}
-
-
-
 input[type=text], [type=email], [type=tel], [type=date], [type=number],select {
     width: 80%;
     padding: 1%;
@@ -384,7 +368,7 @@ input[type=text], [type=email], [type=tel], [type=date], [type=number],select {
     width: calc(100% - 22px);
   }
 
-  input[type=submit] {
+input[type=submit] {
     width: 100%;
     background-color: #3D0E40 ;
     color: rgba(255, 255, 255, 0.904);
@@ -393,30 +377,24 @@ input[type=text], [type=email], [type=tel], [type=date], [type=number],select {
     border: none;
     border-radius: 8px;
     cursor: pointer;
-  }
+}
 
-  .form-group {
+.form-group {
     margin-bottom: 20px;
 }
 
 
 .checkbox-group, .radio-group {
     margin-bottom: 20px;    
-    display: flex;
-    flex-direction: column;
-}
+    
+ }
 
-.checkbox-group h2, .radio-group h2 {
-    margin-bottom: 8px;
-    font-size: 1.5rem;
-    font-weight: normal;
-    text-align: left;
-}
 
 .checkbox-group input[type=checkbox], .radio-group input[type=radio] {
-    margin-right: 10px;
+    margin-right: 15px;
+    margin-bottom: 10px;
 
-}
+} 
 
 textarea {
     width: calc(100% - 22px); 
@@ -427,5 +405,5 @@ textarea {
     font-size: 1rem; 
     line-height: 1.5; 
     resize: vertical; /* Permite o redimensionamento apenas verticalmente */
-    margin-top: 5px; /* Adiciona um pouco de margem superior para separação do label */
+    margin-top: 5px; 
 }
